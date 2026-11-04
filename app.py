@@ -18,7 +18,13 @@ def index():
 @app.route("/calculate", methods=["POST"])
 def calculate():
     income_text = request.form.get("income", "")
-    income = float(income_text)
+    try:
+        income = float(income_text)
+    except ValueError:
+        return render_template(
+            "index.html",
+            error="please enter a valid income."
+        )
 
     # Task 4: Don't allow negative income.
     if income < 0:
