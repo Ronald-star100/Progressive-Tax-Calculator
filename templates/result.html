@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <!-- Task 3: Show the income and tax. -->
+    <h1>Your Tax Result</h1>
+    <p>Income: {{ income }}</p>
+    <p>Tax Owed: {{ tax }}</p>
+
+    <!-- Task 2: Go back to calculate again. -->
+    <a href="/">Calculate Another</a>
+{% endblock %}
