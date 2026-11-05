@@ -19,11 +19,12 @@
 
 ## Task 2: Git Log
 
-c571186 (HEAD -> main, origin/main) Fix Python bytecode ignore rule
-1861a1c Add Project 10 answers
-b0aa6cf Document the tax calculation
-3e437a4 Handle invalid income input
-300d14e Add progressive tax calculator app
+e73f4e1 (HEAD -> main, origin/main) Finalize Project 10 submission answers
+225efd0 Ignore Python bytecode and ZIP files
+33d0d81 Add Project 10 log, GitHub URL, and reflection
+7370038 Document tax calculator setup and usuage
+450d1aa Reject nonnumeric income before tax calculation
+0c49294 Add progressive tax calculator with three brackets
 
 ## Task 3: Github Repository
 
